@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dls.Erp.Domain.Entity\Dls.Erp.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Domain.Interface\Dls.Erp.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Infraestructura.Interface\Dls.Erp.Infraestructura.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

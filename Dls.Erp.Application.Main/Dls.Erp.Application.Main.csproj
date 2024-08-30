@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dls.Erp.Application.DTO\Dls.Erp.Application.DTO.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Application.Interface\Dls.Erp.Application.Interface.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Application.Validator\Dls.Erp.Application.Validator.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Domain.Entity\Dls.Erp.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Domain.Interface\Dls.Erp.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Transversal.Common\Dls.Erp.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>2d820e3c-1b9e-4daf-9907-93931d136bd1</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Asp.Versioning.Mvc" Version="8.1.0" />
+    <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />
+    <PackageReference Include="AspNetCore.HealthChecks.Redis" Version="8.0.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="8.0.2" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI" Version="8.0.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="8.0.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="8.0.1" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dls.Erp.Application.DTO\Dls.Erp.Application.DTO.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Application.Interface\Dls.Erp.Application.Interface.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Application.Main\Dls.Erp.Application.Main.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Application.Validator\Dls.Erp.Application.Validator.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Domain.Core\Dls.Erp.Domain.Core.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Domain.Entity\Dls.Erp.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Domain.Interface\Dls.Erp.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Infraestructura.Data\Dls.Erp.Infraestructura.Data.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Infraestructura.Interface\Dls.Erp.Infraestructura.Interface.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Infraestructura.Repository\Dls.Erp.Infraestructura.Repository.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Transversal.Common\Dls.Erp.Transversal.Common.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Transversal.Logging\Dls.Erp.Transversal.Logging.csproj" />
+    <ProjectReference Include="..\Dls.Erp.Transversal.Mapper\Dls.Erp.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>
